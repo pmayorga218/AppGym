@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AppGym</string>
+    <string name="calcular_repeticion_xima">Calcular repetición máxima</string>
+
+    <string name="crear_rutina">Crear rutina</string>
+    <string name="rutinas">Rutinas</string>
+    <string name="emp_entr">+ Empezar Entrenamiento Vacío</string>
+    <string name="nueva_rutina">Nueva Rutina</string>
+    <string name="explorar">Explorar</string>
 </resources>

@@ -4,34 +4,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#010835"
     tools:context=".InicioActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingHorizontal="30dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="339dp">
 
-        <ImageButton
-            android:id="@+id/imageButton4"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:src="@android:drawable/btn_star" />
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
 
-        <ImageButton
-            android:id="@+id/imageButton3"
+            <Button
+                android:id="@+id/btn_contador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/design_default_color_error"
+                android:paddingBottom="10dp"
+                android:text="Contador de
+                calorias"
+                android:textAlignment="gravity"
+                android:textColor="@color/white"
+                android:textDirection="inherit"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:src="@android:drawable/btn_star" />
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
 
-        <ImageButton
-            android:id="@+id/imageButton2"
+            <Button
+                android:id="@+id/btn_rep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/design_default_color_error"
+                android:paddingBottom="10dp"
+                android:text="@string/calcular_repeticion_xima"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:foregroundGravity="bottom"
-            android:src="@android:drawable/btn_star" />
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_rutina"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/design_default_color_error"
+                android:padding="21dp"
+                android:text="Crear rutina"
+                android:textSize="24sp" />
+        </LinearLayout>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
