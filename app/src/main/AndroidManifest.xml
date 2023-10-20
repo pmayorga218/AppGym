@@ -16,6 +16,15 @@
             android:name=".RutinaActivity"
             android:exported="false" />
         <activity
+            android:name=".ObjetivoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActividadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilActivity"
+            android:exported="false" />
+        <activity
             android:name=".InicioActivity"
             android:exported="false" />
         <activity
