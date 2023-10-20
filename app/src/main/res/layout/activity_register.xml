@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="20dp"
+    android:padding="20dp"
+    android:background="@drawable/david"
     tools:context=".RegisterActivity">
 
     <LinearLayout
@@ -16,7 +17,7 @@
             android:id="@+id/imageButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#FFFFFF"
+            android:background="#00FFFFFF"
             android:onClick="irlogin"
             android:src="@drawable/baseline_arrow_back_24"
             tools:src="@drawable/baseline_arrow_back_24" />
@@ -26,7 +27,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Registrarse"
+            android:text="Registraese"
+            android:textColor="#FFFFFF"
             android:textSize="34sp"
             android:textStyle="bold" />
 
@@ -36,8 +38,12 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:ems="10"
-            android:hint="Nombre"
-            android:inputType="text" />
+            android:hint="nombre"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FDFDFD"
+            android:textColorLink="#FFFFFF" />
 
         <EditText
             android:id="@+id/editTextText2"
@@ -45,8 +51,10 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:ems="10"
-            android:hint="Apellido"
-            android:inputType="text" />
+            android:hint="apellido"
+            android:inputType="text"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FAFAFA" />
 
         <EditText
             android:id="@+id/editTextNumber"
@@ -54,8 +62,10 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:ems="10"
-            android:hint="Edad"
-            android:inputType="number" />
+            android:hint="edad"
+            android:inputType="number"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
@@ -63,8 +73,10 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:ems="10"
-            android:hint="Correo electrónico"
-            android:inputType="textEmailAddress" />
+            android:hint="correo electronico"
+            android:inputType="textEmailAddress"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
 
         <EditText
             android:id="@+id/editTextTextPassword"
@@ -72,8 +84,10 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:ems="10"
-            android:hint="Contraseña"
-            android:inputType="textPassword" />
+            android:hint="contraseña"
+            android:inputType="textPassword"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
 
         <EditText
             android:id="@+id/editTextTextPassword2"
@@ -81,15 +95,19 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:ems="10"
-            android:hint="Confirmación contraseña"
-            android:inputType="textPassword" />
+            android:hint="confirmar contraseña"
+            android:inputType="textPassword"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FFFFFF" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:text="Registrarse"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="@string/registrarsebtn"
             android:textColorLink="@color/black"
             android:textSize="20sp" />
     </LinearLayout>
