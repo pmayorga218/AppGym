@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:gravity="center"
-                android:text="iniciar sesión"
+                android:text="Iniciar sesión"
                 android:textColor="@color/white"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:ems="10"
-                android:hint="correo electronico"
+                android:hint="Correo electronico"
                 android:inputType="textEmailAddress"
                 android:textColor="#FFFFFF"
                 android:textColorHint="@color/white" />
@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:ems="10"
-                android:hint="contraseña"
+                android:hint="Contraseña"
                 android:inputType="textPassword"
                 android:textColor="#FFFFFF"
                 android:textColorHint="#FFFFFF" />
@@ -80,6 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:backgroundTint="@color/design_default_color_error"
+                android:onClick="irmenu"
                 android:text="iniciar sesion"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp" />
@@ -97,7 +98,7 @@
                 android:layout_margin="20dp"
                 android:backgroundTint="@color/design_default_color_error"
                 android:onClick="irregistro"
-                android:text="registar"
+                android:text="Registrarse"
                 android:textSize="16sp" />
         </LinearLayout>
     </LinearLayout>

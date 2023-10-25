@@ -16,6 +16,20 @@ public class LogInActivity extends AppCompatActivity {
     public void irregistro(View view){
         Intent myintent = new Intent(this, RegisterActivity.class);
         startActivity(myintent);
-
     }
+    public void irmenu(View view){
+        Intent myintentt = new Intent(this, InicioActivity.class);
+        startActivity(myintentt);
+    }
+
+
 }
+
+
+
+
+
+
+
+
+

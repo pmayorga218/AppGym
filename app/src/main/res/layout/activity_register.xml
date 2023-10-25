@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:ems="10"
-            android:hint="nombre"
+            android:hint="Nombre"
             android:inputType="text"
             android:textColor="#FFFFFF"
             android:textColorHighlight="#FFFFFF"
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:ems="10"
-            android:hint="apellido"
+            android:hint="Apellido"
             android:inputType="text"
             android:textColorHighlight="#FFFFFF"
             android:textColorHint="#FAFAFA" />
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:ems="10"
-            android:hint="edad"
+            android:hint="Edad"
             android:inputType="number"
             android:textColorHighlight="#FFFFFF"
             android:textColorHint="#FFFFFF" />
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:ems="10"
-            android:hint="correo electronico"
+            android:hint="Correo electronico"
             android:inputType="textEmailAddress"
             android:textColorHighlight="#FFFFFF"
             android:textColorHint="#FFFFFF" />
@@ -84,7 +84,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:ems="10"
-            android:hint="contraseña"
+            android:hint="Contraseña"
             android:inputType="textPassword"
             android:textColorHighlight="#FFFFFF"
             android:textColorHint="#FFFFFF" />
@@ -95,7 +95,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:ems="10"
-            android:hint="confirmar contraseña"
+            android:hint="Confirmar contraseña"
             android:inputType="textPassword"
             android:textColorHighlight="#FFFFFF"
             android:textColorHint="#FFFFFF"
@@ -107,7 +107,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:backgroundTint="@color/design_default_color_error"
-            android:text="@string/registrarsebtn"
+            android:text="Regitrarse"
             android:textColorLink="@color/black"
             android:textSize="20sp" />
     </LinearLayout>
