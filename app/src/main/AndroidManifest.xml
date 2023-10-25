@@ -13,10 +13,10 @@
         android:theme="@style/Theme.AppGym"
         tools:targetApi="31">
         <activity
-            android:name=".SeguimientoActivity"
+            android:name=".AnuncioCalculadoraActivity"
             android:exported="false" />
         <activity
-            android:name=".MacrosActivity"
+            android:name=".calculadorarmActivity"
             android:exported="false" />
         <activity
             android:name=".RutinaActivity"
