@@ -26,6 +26,8 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
             app:cardBackgroundColor="@color/design_default_color_error">
 
             <LinearLayout
@@ -36,7 +38,7 @@
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="135dp"
                     android:gravity="center_horizontal"
                     android:text="&quot;Si eres nuevo en el gimnasio, es importante esperar unos meses antes de intentar calcular tu RM (Repetición Máxima). Tu cuerpo está en proceso de adaptación al ejercicio.  SOLO CALCULA PARA  PRESS BANCA, SENTADILLA, PESO MUERTO"
                     android:textColor="#FFFFFF" />
@@ -57,7 +59,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/design_default_color_error"
-                android:text="volver" />
+                android:text="Volver" />
 
             <Button
                 android:id="@+id/button10"
@@ -67,7 +69,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/design_default_color_error"
-                android:text="siguiente" />
+                android:text="Siguiente" />
         </LinearLayout>
 
     </LinearLayout>

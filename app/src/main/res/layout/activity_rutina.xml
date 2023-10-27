@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@drawable/textura"
     tools:context=".RutinaActivity">
 
     <LinearLayout
@@ -25,7 +25,6 @@
                 android:id="@+id/imageButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:background="@color/black"
                 android:onClick="irinicio"
                 android:src="@drawable/baseline_arrow_back_24"
                 tools:src="@drawable/baseline_arrow_back_24" />
