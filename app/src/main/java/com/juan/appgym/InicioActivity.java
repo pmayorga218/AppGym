@@ -17,5 +17,9 @@ public class InicioActivity extends AppCompatActivity {
         Intent myintent3 = new Intent(this, RutinaActivity.class);
         startActivity(myintent3);
     }
+    public void irperfilc(View view){
+        Intent myintent4 = new Intent(this, PerfilActivity.class);
+        startActivity(myintent4);
+    }
 
 }
