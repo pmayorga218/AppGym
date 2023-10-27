@@ -35,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Crea la rutina"
+                android:text="@string/crea_la_rutina"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
@@ -60,7 +60,7 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Título de la rutina"
+                android:text="@string/titulo"
                 android:textColor="@color/white"
                 android:textSize="24sp" />
 
@@ -69,7 +69,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="30dp"
-                android:text="Empieza agregando un ejercicio a tu rutina"
+                android:text="@string/agregar"
                 android:textAlignment="center" />
 
             <Button

@@ -7,4 +7,15 @@
     <string name="emp_entr">+ Empezar Entrenamiento Vacío</string>
     <string name="nueva_rutina">Nueva Rutina</string>
     <string name="explorar">Explorar</string>
+    <string name="peso_kg">Peso (KG)</string>
+    <string name="numero_de_repeticiones">Numero de repeticiones</string>
+    <string name="rm">RM</string>
+    <string name="anuncio">Anuncio</string>
+    <string name="Anuncio_Texto">\"Si eres nuevo en el gimnasio, es importante esperar unos meses antes de intentar calcular tu RM (Repetición Máxima). Tu cuerpo está en proceso de adaptación al ejercicio. SOLO CALCULA PARA PRESS BANCA, SENTADILLA, PESO MUERTO</string>
+    <string name="crea_la_rutina">Crea la rutina</string>
+    <string name="titulo">Título de la rutina</string>
+    <string name="agregar">Empieza agregando un ejercicio a tu rutina</string>
+    <string name="inicio_sesion">Iniciar sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="inicio_r_pido">Inicio Rápido</string>
 </resources>

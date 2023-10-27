@@ -31,6 +31,12 @@
             android:name=".InicioActivity"
             android:exported="false" />
         <activity
+            android:name=".calculadorarmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnuncioCalculadoraActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
             android:exported="false" />
         <activity

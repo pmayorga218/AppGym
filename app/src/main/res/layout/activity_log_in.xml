@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:gravity="center"
-                android:text="Iniciar sesión"
+                android:text="@string/inicio_sesion"
                 android:textColor="@color/white"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -81,7 +81,7 @@
                 android:layout_margin="20dp"
                 android:backgroundTint="@color/design_default_color_error"
                 android:onClick="irmenu"
-                android:text="iniciar sesion"
+                android:text="Iniciar sesion"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp" />
         </LinearLayout>

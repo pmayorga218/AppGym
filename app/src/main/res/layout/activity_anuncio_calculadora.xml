@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Anuncio"
+            android:text="@string/anuncio"
             android:textColor="#FFFFFF"
             android:textSize="34sp" />
 
@@ -40,7 +40,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="135dp"
                     android:gravity="center_horizontal"
-                    android:text="&quot;Si eres nuevo en el gimnasio, es importante esperar unos meses antes de intentar calcular tu RM (Repetición Máxima). Tu cuerpo está en proceso de adaptación al ejercicio.  SOLO CALCULA PARA  PRESS BANCA, SENTADILLA, PESO MUERTO"
+                    android:text="@string/Anuncio_Texto"
                     android:textColor="#FFFFFF" />
 
             </LinearLayout>
