@@ -13,10 +13,7 @@ public class PerfilActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perfil);
     }
-    public void irregistro(View view){
-        Intent myintent = new Intent(this, RegisterActivity.class);
-        startActivity(myintent);
-    }
+
     public void iractividad(View view){
         Intent myintent5 = new Intent(this, ActividadActivity.class);
         startActivity(myintent5);

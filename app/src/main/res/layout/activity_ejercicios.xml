@@ -5,16 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/textura"
-    tools:context=".PerfilActivity">
+    tools:context=".EjerciciosActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
-
+        android:orientation="vertical">
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="wrap_content"
@@ -25,95 +22,76 @@
             tools:src="@drawable/baseline_arrow_back_24" />
 
         <TextView
+            android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Perfil"
-            android:textColor="@color/white"
-            android:textSize="34sp"
-            android:textStyle="bold" />
+            android:text="Añadir imagen"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/editTextText3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="10dp"
             android:ems="10"
-            android:hint="Altura(cm"
+            android:hint="Nombre del ejercicio"
             android:inputType="text"
             android:textColor="@color/white"
             android:textColorHint="@color/white" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/editTextText6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="10dp"
             android:ems="10"
-            android:hint="Peso(kg)"
+            android:hint="Equipamiento"
             android:inputType="text"
             android:textColor="@color/white"
             android:textColorHint="@color/white" />
 
         <EditText
-            android:id="@+id/editTextNumber"
+            android:id="@+id/editTextText5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="10dp"
             android:ems="10"
-            android:hint="Sexo"
-            android:inputType="number"
-            android:textColor="@color/design_default_color_background"
-            android:textColorHint="@color/white" />
-
-        <EditText
-            android:id="@+id/editTextTextEmailAddress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:ems="10"
-            android:hint="Edad"
-            android:inputType="textEmailAddress"
+            android:hint="Grupo muscular primario"
+            android:inputType="text"
             android:textColor="@color/white"
             android:textColorHint="@color/white" />
 
-        <LinearLayout
+        <EditText
+            android:id="@+id/editTextText4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:orientation="horizontal">
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Otros músculos (opcional)"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
 
-            <Button
-                android:id="@+id/button4"
-                android:layout_width="87dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="@color/design_default_color_error"
-                android:onClick="iractividad"
-                android:text="Actividad"
-                android:textSize="16sp" />
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="87dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="@color/design_default_color_error"
-                android:onClick="irobjetivo"
-                android:text="Objetivo"
-                android:textSize="16sp" />
-        </LinearLayout>
+        <EditText
+            android:id="@+id/editTextText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Tipo de ejercicio"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="15dp"
             android:backgroundTint="@color/design_default_color_error"
-            android:onClick="irmacros"
-            android:text="Calcular Macros"
+            android:text="Añadir ejercicio"
             android:textSize="16sp" />
 
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

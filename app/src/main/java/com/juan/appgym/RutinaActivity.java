@@ -17,4 +17,14 @@ public class RutinaActivity extends AppCompatActivity {
         Intent myintent4 = new Intent(this, InicioActivity.class);
         startActivity(myintent4);
     }
+    public void ircrearrut(View view){
+        Intent myintentt = new Intent(this, CrearRutActivity.class);
+        startActivity(myintentt);
+
+    }
+    public void irejercicios(View view){
+        Intent myintentt1 = new Intent(this, EjerciciosActivity.class);
+        startActivity(myintentt1);
+
+    }
 }

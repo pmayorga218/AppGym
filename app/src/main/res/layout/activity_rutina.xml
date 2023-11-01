@@ -47,6 +47,7 @@
             android:layout_margin="5dp"
             android:backgroundTint="@color/design_default_color_error"
             android:text="@string/emp_entr"
+            android:onClick="ircrearrut"
             android:textAlignment="textStart"
             android:textSize="16sp" />
 
