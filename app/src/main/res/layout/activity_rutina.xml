@@ -47,7 +47,7 @@
             android:layout_margin="5dp"
             android:backgroundTint="@color/design_default_color_error"
             android:text="@string/emp_entr"
-            android:onClick="ircrearrut"
+            android:onClick="irejercicios"
             android:textAlignment="textStart"
             android:textSize="16sp" />
 
@@ -72,6 +72,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="@color/design_default_color_error"
                 android:text="@string/nueva_rutina"
+                android:onClick="ircrearrut"
                 android:textSize="16sp" />
 
             <Button
@@ -81,6 +82,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="@color/design_default_color_error"
                 android:text="@string/explorar"
+                android:onClick="irejercicios"
                 android:textSize="16sp" />
         </LinearLayout>
 

@@ -5,18 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/textura"
-    tools:context=".calculadorarmActivity">
+    tools:context=".CalculadorarmActivity">
 
     <LinearLayout
         android:layout_width="409dp"
         android:layout_height="729dp"
+        android:layout_margin="20dp"
         android:orientation="vertical"
+        android:padding="20dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/baseline_keyboard_backspace_24" />
 
@@ -85,7 +87,7 @@
                 android:layout_marginEnd="100dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/design_default_color_error"
-                android:text="Calcular" />
+                android:text="@string/txtbtcalc" />
         </LinearLayout>
 
         <TextView

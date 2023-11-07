@@ -21,5 +21,9 @@ public class InicioActivity extends AppCompatActivity {
         Intent myintent4 = new Intent(this, PerfilActivity.class);
         startActivity(myintent4);
     }
+    public void iranuncio(View view){
+        Intent myintent9 = new Intent(this, AnuncioCalculadoraActivity.class);
+        startActivity(myintent9);
+    }
 
 }

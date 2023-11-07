@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="¿Cuál es tu objetivo?"
+            android:text="@string/po"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="16sp" />
@@ -45,14 +45,14 @@
                 android:id="@+id/radioButton"
                 android:layout_width="146dp"
                 android:layout_height="match_parent"
-                android:text="Perder peso"
+                android:text="@string/bto1"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="205dp"
                 android:layout_height="42dp"
-                android:text="Disminuye tu requerimiento calórico un 20%."
+                android:text="@string/tbto1"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -68,7 +68,7 @@
                 android:layout_width="206dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Perder peso lentamente"
+                android:text="@string/bto2"
                 android:textColor="@color/white" />
 
             <TextView
@@ -76,7 +76,7 @@
                 android:layout_width="268dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Disminuye tu requerimiento calórico un 10%."
+                android:text="@string/tbto2"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -92,7 +92,7 @@
                 android:layout_width="201dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Mantener peso"
+                android:text="@string/bto3"
                 android:textColor="@color/white" />
 
             <TextView
@@ -100,7 +100,7 @@
                 android:layout_width="268dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="No modifica tu requerimiento calórico."
+                android:text="@string/tbto3"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -116,7 +116,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Aumentar peso lentamente"
+                android:text="@string/bto4"
                 android:textColor="@color/white" />
 
             <TextView
@@ -124,7 +124,7 @@
                 android:layout_width="268dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Aumenta tu requerimiento calórico un 10%."
+                android:text="@string/tbto4"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -140,7 +140,7 @@
                 android:layout_width="206dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Amentar peso "
+                android:text="@string/bto5"
                 android:textColor="@color/white" />
 
             <TextView
@@ -148,7 +148,7 @@
                 android:layout_width="268dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Aumenta tu requerimiento calórico un 20%."
+                android:text="@string/tbto5"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -159,7 +159,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:backgroundTint="@color/design_default_color_error"
-            android:text="Confirmar"
+            android:text="@string/btco"
+            android:onClick="irperfilc"
             android:textSize="16sp" />
 
     </LinearLayout>

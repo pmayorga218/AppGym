@@ -16,7 +16,7 @@
             android:name=".EjerciciosActivity"
             android:exported="false" />
         <activity
-            android:name=".CrearRutActivity"
+            android:name=".CrearActivity"
             android:exported="false" />
         <activity
             android:name=".RutinaActivity"
@@ -34,7 +34,7 @@
             android:name=".InicioActivity"
             android:exported="false" />
         <activity
-            android:name=".calculadorarmActivity"
+            android:name=".CalculadorarmActivity"
             android:exported="false" />
         <activity
             android:name=".AnuncioCalculadoraActivity"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/textura"
-    tools:context=".CrearRutActivity">
+    tools:context=".CrearActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="@color/material_dynamic_neutral30"
-                android:text="Cancelar"
+                android:text="@string/btcan"
                 android:onClick="irrutina"
                 android:textAlignment="textStart"
                 android:textColor="@color/design_default_color_background" />
@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="@color/material_dynamic_neutral30"
-                android:text="Guardar"
+                android:text="@string/btgr"
                 android:textAlignment="textEnd" />
         </LinearLayout>
 
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:backgroundTint="@color/design_default_color_error"
-                android:text="+ Agregar ejercicio"
+                android:text="@string/txbtae"
                 android:onClick="irejercicios"
                 android:textSize="16sp" />
         </LinearLayout>

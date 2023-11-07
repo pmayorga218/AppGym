@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
-            android:text="Elige la opcion a la que quieres acceder"
+            android:text="@string/eligini"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="16sp" />
@@ -69,6 +69,7 @@
                 android:backgroundTint="@color/design_default_color_error"
                 android:paddingBottom="10dp"
                 android:text="@string/calcular_repeticion_xima"
+                android:onClick="iranuncio"
                 android:textSize="24sp" />
         </LinearLayout>
 
@@ -85,7 +86,7 @@
                 android:backgroundTint="@color/design_default_color_error"
                 android:onClick="irrutina"
                 android:padding="21dp"
-                android:text="Crear rutina"
+                android:text="@string/crearrutina"
                 android:textSize="24sp" />
         </LinearLayout>
 

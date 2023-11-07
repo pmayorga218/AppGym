@@ -13,18 +13,15 @@ public class RutinaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rutina);
     }
-    public void irinicio(View view){
-        Intent myintent4 = new Intent(this, InicioActivity.class);
-        startActivity(myintent4);
-    }
+
     public void ircrearrut(View view){
-        Intent myintentt = new Intent(this, CrearRutActivity.class);
-        startActivity(myintentt);
+        Intent myintent11 = new Intent(this, CrearActivity.class);
+        startActivity(myintent11);
 
     }
     public void irejercicios(View view){
-        Intent myintentt1 = new Intent(this, EjerciciosActivity.class);
-        startActivity(myintentt1);
+        Intent myintent12 = new Intent(this, EjerciciosActivity.class);
+        startActivity(myintent12);
 
     }
 }

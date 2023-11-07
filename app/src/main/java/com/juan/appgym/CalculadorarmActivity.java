@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class calculadorarmActivity extends AppCompatActivity {
+public class CalculadorarmActivity extends AppCompatActivity {
 
     EditText pesoEditText, repeticionesEditText;
     TextView resultadoTextView;

@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:ems="10"
-                android:hint="Correo electronico"
+                android:hint="@string/correotxt"
                 android:inputType="textEmailAddress"
                 android:textColor="#FFFFFF"
                 android:textColorHint="@color/white" />
@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:ems="10"
-                android:hint="Contraseña"
+                android:hint="@string/contxt"
                 android:inputType="textPassword"
                 android:textColor="#FFFFFF"
                 android:textColorHint="#FFFFFF" />
@@ -81,7 +81,7 @@
                 android:layout_margin="20dp"
                 android:backgroundTint="@color/design_default_color_error"
                 android:onClick="irmenu"
-                android:text="Iniciar sesion"
+                android:text="@string/txtbis"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -98,7 +98,7 @@
                 android:layout_margin="20dp"
                 android:backgroundTint="@color/design_default_color_error"
                 android:onClick="irregistro"
-                android:text="Registrarse"
+                android:text="@string/txtbregist"
                 android:textSize="16sp" />
         </LinearLayout>
     </LinearLayout>

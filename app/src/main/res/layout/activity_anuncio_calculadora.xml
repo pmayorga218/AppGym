@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/textura"
+    android:textAlignment="center"
+    android:textDirection="locale"
     tools:context=".AnuncioCalculadoraActivity">
 
     <LinearLayout
@@ -24,24 +26,28 @@
             android:textSize="34sp" />
 
         <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="100dp"
             android:layout_marginEnd="100dp"
             app:cardBackgroundColor="@color/design_default_color_error">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="fill_horizontal"
+                android:orientation="vertical"
+                android:padding="15dp">
 
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="match_parent"
-                    android:layout_height="135dp"
-                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|fill_horizontal"
                     android:text="@string/Anuncio_Texto"
-                    android:textColor="#FFFFFF" />
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -59,6 +65,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/design_default_color_error"
+                android:onClick="irinicio"
                 android:text="Volver" />
 
             <Button
@@ -69,6 +76,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/design_default_color_error"
+                android:onClick="ircalculadora"
                 android:text="Siguiente" />
         </LinearLayout>
 
