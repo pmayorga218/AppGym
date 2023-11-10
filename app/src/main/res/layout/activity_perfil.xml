@@ -34,18 +34,18 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/tv_altura"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:ems="10"
-            android:hint="Altura(cm"
+            android:hint="Altura(cm)"
             android:inputType="text"
             android:textColor="@color/white"
             android:textColorHint="@color/white" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/tv_peso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -56,18 +56,18 @@
             android:textColorHint="@color/white" />
 
         <EditText
-            android:id="@+id/editTextNumber"
+            android:id="@+id/tv_sexo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:ems="10"
             android:hint="Sexo"
-            android:inputType="number"
+            android:inputType="text"
             android:textColor="@color/design_default_color_background"
             android:textColorHint="@color/white" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/tv_edad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"

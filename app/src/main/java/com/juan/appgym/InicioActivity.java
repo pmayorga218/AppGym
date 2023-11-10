@@ -25,5 +25,8 @@ public class InicioActivity extends AppCompatActivity {
         Intent myintent9 = new Intent(this, AnuncioCalculadoraActivity.class);
         startActivity(myintent9);
     }
-
+    public void imcactivity (View view){
+        Intent myintent9 = new Intent(this,CalculadoraIMCActivity.class);
+        startActivity(myintent9);
+    }
 }

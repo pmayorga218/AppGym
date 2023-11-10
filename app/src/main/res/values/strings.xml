@@ -65,4 +65,13 @@
     <string name="nombtxt">Nombre</string>
     <string name="eligini">Elige la opcion a la que quieres acceder</string>
     <string name="crearrutina">Crear rutina</string>
+    <string name="resultado_imc">Tu IMC es: %.2f</string>
+    <string name="error_altura_cero" />
+    <string name="error_campos_vacios" />
+    <string name="error_formato_invalido" />
+    <string name="bajo_peso">Bajo peso (IMC &lt; 18.5)</string>
+    <string name="peso_normal">Peso normal (IMC entre 18.5 y 24.9)</string>
+    <string name="sobrepeso">Sobrepeso (IMC entre 25 y 29.9)</string>
+    <string name="obesidad">Obesidad (IMC de 30 o más)</string>
+    <string name="categoria_imc">Categoría IMC: %s</string>
 </resources>

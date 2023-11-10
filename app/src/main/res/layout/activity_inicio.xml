@@ -35,60 +35,56 @@
             android:textColor="@color/white"
             android:textSize="16sp" />
 
-        <LinearLayout
+        <Button
+            android:id="@+id/btn_contador"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
-            android:orientation="vertical">
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_error"
+            android:onClick="irperfilc"
+            android:text="Contador de calorías"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
 
-            <Button
-                android:id="@+id/btn_contador"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/design_default_color_error"
-                android:onClick="irperfilc"
-                android:paddingBottom="10dp"
-                android:text="Contador de
-                calorias"
-                android:textAlignment="gravity"
-                android:textColor="@color/white"
-                android:textDirection="inherit"
-                android:textSize="24sp" />
-        </LinearLayout>
-
-        <LinearLayout
+        <Button
+            android:id="@+id/btn_rep"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
-            android:orientation="vertical">
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_error"
+            android:onClick="iranuncio"
+            android:text="@string/calcular_repeticion_xima"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
 
-            <Button
-                android:id="@+id/btn_rep"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/design_default_color_error"
-                android:paddingBottom="10dp"
-                android:text="@string/calcular_repeticion_xima"
-                android:onClick="iranuncio"
-                android:textSize="24sp" />
-        </LinearLayout>
-
-        <LinearLayout
+        <Button
+            android:id="@+id/btn_rutina"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
-            android:orientation="vertical">
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_error"
+            android:onClick="irrutina"
+            android:text="@string/crearrutina"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
 
-            <Button
-                android:id="@+id/btn_rutina"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:backgroundTint="@color/design_default_color_error"
-                android:onClick="irrutina"
-                android:padding="21dp"
-                android:text="@string/crearrutina"
-                android:textSize="24sp" />
-        </LinearLayout>
+        <Button
+            android:id="@+id/btn_imc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_error"
+            android:onClick="imcactivity"
+            android:text="Calcular índice de masa corporal (IMC)"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
 
     </LinearLayout>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

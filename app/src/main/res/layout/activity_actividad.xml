@@ -4,167 +4,150 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/textura"
     tools:context=".ActividadActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayoutActividad"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/textura"
+        android:backgroundTint="@color/white"
         android:orientation="vertical"
-        android:padding="20dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:padding="10dp">
 
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/black"
-            android:onClick="irperfilc"
-            android:src="@drawable/baseline_arrow_back_24"
-            tools:src="@drawable/baseline_arrow_back_24" />
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="¿Cuanto ejercicio realizas?"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
-
+        <!-- Opción 1 -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:padding="10dp">
+            android:layout_height="40dp"
+            android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/radioButton"
-                    android:layout_width="107dp"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bta0"
-                    android:textColor="@color/white" />
-
-                <TextView
-                    android:id="@+id/textView"
-                    android:layout_width="255dp"
-                    android:layout_height="wrap_content"
-                    android:text="@string/tbta0"
-                    android:textAlignment="center"
-                    android:textColor="@color/white" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="44dp"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/radioButton7"
-                    android:layout_width="131dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/bta1"
-                    android:textColor="@color/white" />
-
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="268dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/tbta1"
-                    android:textAlignment="center"
-                    android:textColor="@color/white" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="44dp"
-                android:orientation="horizontal"
-                android:textAlignment="center">
-
-                <RadioButton
-                    android:id="@+id/radioButton7"
-                    android:layout_width="131dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/bta2"
-                    android:textColor="@color/white" />
-
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="268dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/tbta2"
-                    android:textAlignment="center"
-                    android:textColor="@color/white" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="44dp"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/radioButton7"
-                    android:layout_width="131dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/bta3"
-                    android:textColor="@color/white" />
-
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="268dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:padding="5dp"
-                    android:text="@string/tbta3"
-                    android:textAlignment="center"
-                    android:textColor="@color/white" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="64dp"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/radioButton7"
-                    android:layout_width="131dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="@string/btna4"
-                    android:textColor="@color/white" />
-
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="268dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:padding="5dp"
-                    android:text="@string/ej22"
-                    android:textAlignment="center"
-                    android:textColor="@color/white" />
-            </LinearLayout>
-
-            <Button
-                android:id="@+id/button12"
-                android:layout_width="match_parent"
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="107dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:backgroundTint="@color/design_default_color_error"
-                android:text="@string/confirmar_act"
-                android:onClick="irperfilc"
-                android:textSize="16sp" />
+                android:text="Opción 1"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:text="Texto opción 1"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
         </LinearLayout>
 
+        <!-- Opción 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Opción 2"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Texto opción 2"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <!-- Repite lo anterior para Opciones 3, 4 y 5 -->
+
+        <!-- Opción 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Opción 3"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Texto opción 3"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <!-- Opción 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Opción 4"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Texto opción 4"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <!-- Opción 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="131dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Opción 5"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Texto opción 5"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/design_default_color_error"
+            android:onClick="irperfilc"
+            android:text="Confirmar"
+            android:textSize="16sp" />
     </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
