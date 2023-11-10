@@ -8,31 +8,49 @@
     tools:context=".ActividadActivity">
 
     <LinearLayout
-        android:id="@+id/linearLayoutActividad"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:backgroundTint="@color/white"
+        android:background="@drawable/textura"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="20dp">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:onClick="irPerfil"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/pe"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
 
         <!-- Opción 1 -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="59dp"
+            android:layout_margin="10dp"
             android:orientation="horizontal">
 
             <CheckBox
                 android:id="@+id/checkBox1"
                 android:layout_width="107dp"
                 android:layout_height="wrap_content"
-                android:text="Opción 1"
+                android:text="@string/Bajo"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView1"
-                android:layout_width="255dp"
+                android:layout_width="229dp"
                 android:layout_height="wrap_content"
-                android:text="Texto opción 1"
+                android:text="@string/Pocoonadaejercicio"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -40,50 +58,45 @@
         <!-- Opción 2 -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="59dp"
+            android:layout_margin="10dp"
             android:orientation="horizontal">
 
             <CheckBox
                 android:id="@+id/checkBox2"
-                android:layout_width="131dp"
+                android:layout_width="107dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Opción 2"
+                android:text="@string/Pocoonadaejercicio"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="268dp"
+                android:layout_width="233dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Texto opción 2"
+                android:text="@string/Ejercicioslivanos1a3vecesporsemana"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
 
-        <!-- Repite lo anterior para Opciones 3, 4 y 5 -->
-
         <!-- Opción 3 -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="44dp"
-            android:orientation="horizontal"
-            android:textAlignment="center">
+            android:layout_height="59dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
 
             <CheckBox
                 android:id="@+id/checkBox3"
-                android:layout_width="131dp"
+                android:layout_width="107dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Opción 3"
+                android:text="@string/Alto"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="268dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Texto opción 3"
+                android:text="@string/Ejerciciomoderadodeporte3a5vecesporsemana"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -91,24 +104,22 @@
         <!-- Opción 4 -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="59dp"
+            android:layout_margin="10dp"
             android:orientation="horizontal">
 
             <CheckBox
                 android:id="@+id/checkBox4"
-                android:layout_width="131dp"
+                android:layout_width="107dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Opción 4"
+                android:text="@string/Muyalto"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView4"
-                android:layout_width="268dp"
+                android:layout_width="228dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:padding="5dp"
-                android:text="Texto opción 4"
+                android:text="@string/Ejercicio6a7vecesporsemana"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -116,37 +127,36 @@
         <!-- Opción 5 -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="59dp"
+            android:layout_margin="10dp"
             android:orientation="horizontal">
 
             <CheckBox
                 android:id="@+id/checkBox5"
-                android:layout_width="131dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="Opción 5"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Hiperactivo"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView5"
-                android:layout_width="268dp"
+                android:layout_width="235dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:padding="5dp"
-                android:text="Texto opción 5"
+                android:text="@string/Ejercicioydeportemasde2horastodoslosdias"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
 
         <Button
-            android:id="@+id/button12"
+            android:id="@+id/button11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:backgroundTint="@color/design_default_color_error"
-            android:onClick="irperfilc"
-            android:text="Confirmar"
+            android:text="@string/botn_confirmar"
+            android:onClick="irPerfil"
             android:textSize="16sp" />
+
     </LinearLayout>
 
 

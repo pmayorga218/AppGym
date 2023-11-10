@@ -12,18 +12,15 @@
         android:layout_height="match_parent"
         android:background="@drawable/textura"
         android:orientation="vertical"
-        android:padding="20dp"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="-66dp">
+        android:padding="20dp">
 
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/black"
-            android:onClick="irperfilc"
-            android:src="@drawable/baseline_arrow_back_24"
-            tools:src="@drawable/baseline_arrow_back_24" />
+            android:onClick="irPerfil"
+            android:src="@drawable/baseline_arrow_back_24" />
 
         <TextView
             android:id="@+id/textView13"
@@ -35,6 +32,7 @@
             android:textColor="@color/white"
             android:textSize="16sp" />
 
+        <!-- Opción 1 -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="59dp"
@@ -45,18 +43,19 @@
                 android:id="@+id/checkBox1"
                 android:layout_width="107dp"
                 android:layout_height="wrap_content"
-                android:text="Opción 1"
+                android:text="@string/Perderpeso"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView1"
-                android:layout_width="255dp"
+                android:layout_width="229dp"
                 android:layout_height="wrap_content"
-                android:text="Texto opción 1"
+                android:text="@string/Disminuyeturequerimientocaloricoun20"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
 
+        <!-- Opción 2 -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="59dp"
@@ -67,18 +66,19 @@
                 android:id="@+id/checkBox2"
                 android:layout_width="107dp"
                 android:layout_height="wrap_content"
-                android:text="Opción 2"
+                android:text="@string/Perderpesolentamente"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="255dp"
+                android:layout_width="233dp"
                 android:layout_height="wrap_content"
-                android:text="Texto opción 2"
+                android:text="@string/Disminuyeturequerimientocaloricoun10"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
 
+        <!-- Opción 3 -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="59dp"
@@ -89,18 +89,19 @@
                 android:id="@+id/checkBox3"
                 android:layout_width="107dp"
                 android:layout_height="wrap_content"
-                android:text="Opción 3"
+                android:text="@string/Mantenerpeso"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="255dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Texto opción 3"
+                android:text="@string/Nomodificaturequerimientocalorico"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
 
+        <!-- Opción 4 -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="59dp"
@@ -111,18 +112,19 @@
                 android:id="@+id/checkBox4"
                 android:layout_width="107dp"
                 android:layout_height="wrap_content"
-                android:text="Opción 4"
+                android:text="@string/Aumentarpesolentamente"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView4"
-                android:layout_width="255dp"
+                android:layout_width="228dp"
                 android:layout_height="wrap_content"
-                android:text="Texto opción 4"
+                android:text="@string/Aumentaturequerimientocaloricoun10"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
 
+        <!-- Opción 5 -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="59dp"
@@ -133,14 +135,14 @@
                 android:id="@+id/checkBox5"
                 android:layout_width="107dp"
                 android:layout_height="wrap_content"
-                android:text="Opción 5"
+                android:text="@string/Aumentarpeso"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView5"
-                android:layout_width="255dp"
+                android:layout_width="235dp"
                 android:layout_height="wrap_content"
-                android:text="Texto opción 5"
+                android:text="@string/Aumentaturequerimientocaloricoun20"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -151,10 +153,11 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:backgroundTint="@color/design_default_color_error"
-            android:text="@string/btco"
-            android:onClick="irperfilc"
+            android:text="@string/boton_confirmar"
+            android:onClick="irPerfil"
             android:textSize="16sp" />
 
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
