@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AppGym"
         tools:targetApi="31">
         <activity
+            android:name=".EjercicioActivity"
+            android:exported="false" />
+        <activity
             android:name=".CalculadoraIMCActivity"
             android:exported="false" />
         <activity

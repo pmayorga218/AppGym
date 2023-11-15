@@ -77,4 +77,7 @@
     <string name="Hiperactivo">Hiperactivo</string>
     <string name="Ejercicioydeportemasde2horastodoslosdias">Ejercicio y deporte mas de 2 horas todos los dias</string>
     <string name="botn_confirmar">Confirmar</string>
+    <string name="agrega_el_ejercicio">Agrega el ejercicio</string>
+    <string name="nombre_del_ejercicio">Nombre del ejercicio</string>
+    <string name="a_adir">Añadir</string>
 </resources>

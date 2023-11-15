@@ -12,9 +12,7 @@
         android:layout_margin="20dp"
         android:background="@drawable/textura"
         android:orientation="vertical"
-        android:paddingHorizontal="30dp"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="-3dp">
+        android:paddingHorizontal="30dp">
 
         <ImageButton
             android:id="@+id/imageButton"
