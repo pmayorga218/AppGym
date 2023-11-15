@@ -40,6 +40,7 @@
             android:layout_marginTop="20dp"
             android:hint="peso(kg)"
             android:inputType="numberDecimal"
+            android:textColor="#FFFFFF"
             android:textColorHint="@color/white" />
 
         <EditText
@@ -49,6 +50,7 @@
             android:layout_marginTop="10dp"
             android:hint="altura(cm)"
             android:inputType="numberDecimal"
+            android:textColor="#FFFFFF"
             android:textColorHint="@color/white" />
 
         <Button
